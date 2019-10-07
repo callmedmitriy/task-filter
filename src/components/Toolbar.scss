@@ -1,0 +1,28 @@
+.list {
+	max-width: 640px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+	.filter-li {
+		display: inline-block;
+		padding: 5px 15px;
+		margin: 5px;
+		border: 2px solid #444;
+		color: #444;
+		cursor: pointer;
+		transition: .3s ease;
+		
+		&:hover {
+			background-color: #444;
+			color: #fff;
+			transition: .3s ease;
+		}
+	}
+
+	.selected {
+		background-color: #444;
+		color: #fff;
+	}
+
+}
